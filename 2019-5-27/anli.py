@@ -121,7 +121,7 @@ def random_word(hist):
 
 
 def main():
-    hist = process_file('emma.txt', skip_header=True)
+    hist = process_file('Desktop/emma.txt', skip_header=True)
     print('Total number of words:', total_words(hist))
     print('Number of different words:', different_words(hist))
 
